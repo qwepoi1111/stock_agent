@@ -127,7 +127,7 @@ if st.sidebar.button("전사적 정밀 분석 시작"):
 """
                 
                 # 교수님 선택 모델 호출
-                model = genai.GenerativeModel('gemini-1.5-pro')
+                model = genai.GenerativeModel('gemini-2.5-flash')
                 response = model.generate_content(prompt)
                 
                 # 결과 마크다운 출력
